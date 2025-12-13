@@ -1,3 +1,4 @@
+/* Root variables  */
 :root {
   --color-block-1: #7b93db;
   --color-block-2: #4c63b6;
@@ -9,9 +10,12 @@
 
   --color-back: #f5f7fa;
 }
+
 html {
   box-sizing: border-box;
 }
+
+/* CSS Resets */
 *,
 *:before,
 *:after {
@@ -61,7 +65,69 @@ h4 {
 }
 
 /* add your styles */
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 175px 75px 175px 275px;
+  gap: 25px;
+}
 
+#a {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#b {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+#c {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+#d {
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+#g {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#h {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#k {
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+#l {
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+#m {
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+#n {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#o {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+#p {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+#q {
+  grid-column-start: 7;
+  grid-column-end: 11;
+}
 /* styles for mobile protrait screen */
 
 /* styles for tablet portrait and mobile landscape screens */
