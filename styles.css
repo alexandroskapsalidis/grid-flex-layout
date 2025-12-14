@@ -292,7 +292,7 @@ h4 {
   font-size: larger;
 }
 
-/* Mobile portrait styles */
+/* Tablet & mobile styles */
 @media (max-width: 768px) {
   .container {
     display: grid;
