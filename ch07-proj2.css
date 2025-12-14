@@ -78,12 +78,18 @@ h4 {
   background-color: #ffffff;
   color: #3e4c59;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
 }
 #a img {
   max-width: 100%;
 }
 #a figcaption {
   padding: 5px 10px;
+  font-size: larger;
 }
 #b {
   grid-column-start: 3;
@@ -136,6 +142,24 @@ h4 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 4;
+  background-color: #ffffff;
+  color: #3e4c59;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+#g img {
+  max-width: 100%;
+}
+#g figcaption {
+  padding: 0 10px;
+  font-size: larger;
+}
+#g p {
+  padding: 0 10px;
 }
 #h {
   grid-column-start: 3;
@@ -203,6 +227,24 @@ h4 {
 #n {
   grid-column-start: 1;
   grid-column-end: 3;
+  background-color: #ffffff;
+  color: #3e4c59;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+#n img {
+  max-width: 100%;
+}
+#n figcaption {
+  padding: 0 10px;
+  font-size: larger;
+}
+#n p {
+  padding: 0 10px;
 }
 #o {
   grid-column-start: 3;
@@ -229,6 +271,23 @@ h4 {
 #q {
   grid-column-start: 7;
   grid-column-end: 11;
+  background-color: #ffffff;
+  color: #3e4c59;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+#q img {
+  max-width: 100%;
+}
+#q #caption {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#q figcaption {
+  font-size: larger;
 }
 /* styles for mobile protrait screen */
 
